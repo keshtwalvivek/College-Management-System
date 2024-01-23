@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins&family=Roboto+Mono:ital,wght@0,500;1,700&display=swap");
+.App {
+  display: flex;
+  width: 100vw;
+  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(237 233 254); */
+  font-family: "Outfit", sans-serif;
+}
+
+.header {
+  width: 100vw;
+  padding: 2rem;
+  background-color: rgb(180, 163, 163);
+}
+
+.SidemenuAndPageContent {
+  display: flex;
+}
+
+
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar.closed {
+  transform: translateX(-80%);
+  
+}
