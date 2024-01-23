@@ -7,10 +7,13 @@ This web application offers a streamlined and efficient solution for managing co
 # Key Features:
 
 # Authentication: Secure user login and registration system using forms.
+![image](https://github.com/keshtwalvivek/College-Management-System/assets/116489124/79f1eba1-af14-4550-b654-1affdfbb7778)
+
 # Dashboard: Personalized overview for different user roles (admin, student, faculty) showcasing relevant information and quick actions.
 # Sidebar: Intuitive navigation panel for easy access to various functionalities.
 
 # Student Management:
+
   Student Table: View, add, delete, and update student details, including profile images uploaded with Multer.
   Add Student Form: Efficiently input new student data.
   Edit Student Form: Seamlessly modify existing student records.
